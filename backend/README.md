@@ -10,7 +10,7 @@ This is an AWS Serverless Application. If you deploy it, this is what you get:
 - The needed Lambda functions that serve as User Pool triggers
 - The permissions on the Lambda functions so that the User Pool may invoke them
 
-An example client web app that is ready to run against this Serverless Application can be found at [../client](../client)
+An example client web app that is ready to run against this Serverless Application can be found at [../webapp](../webapp)
 
 ## Deployment instructions
 
@@ -18,7 +18,7 @@ Deploy either through the Serverless Application Repository or with the AWS SAM 
 
 ### Deployment through Serverless Application Repository
 
-This is the easiest path. Find the Serverless Application in the [Repository](https://console.aws.amazon.com/serverlessrepo/) using tags "cognito" and "rekognition" or navigate to it directly with [this link](https://soon.com).
+This is the easiest path. Find the Serverless Application in the [Repository](https://console.aws.amazon.com/serverlessrepo/) using tags "cognito" and "rekognition" or navigate to it directly with [this link](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:825350388019:applications~amazon-cognito-passwordless-facial-rekognition-auth).
 
 If you deploy the Serverless Application you'll get a CloudFormation stack with the resources mentioned above. The outputs of the CloudFormation stack will contain the the ID's of the User Pool, Client that you can use in your client web app, your S3 Bucket Names, Collection ARN and DynamoDB table name.
 

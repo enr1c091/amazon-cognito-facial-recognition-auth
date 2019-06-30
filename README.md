@@ -4,8 +4,8 @@ The purpose of this sample code is to demonstrate how Amazon Cognito Custom Auth
 
 The sample code is contained in these folders. Please visit these and run the sample solution:
 
-- [./cognito](./backend): a Serverless Application that includes a Cognito user pool with the necessary setup
-- [./client](./webapp): a Web Client that authenticates with the Cognito user pool
+- [./backend](./backend): a Serverless Application that includes a Cognito user pool with the necessary setup
+- [./webapp](./webapp): a Web Client that authenticates with the Cognito user pool
 
 ## License Summary
 
